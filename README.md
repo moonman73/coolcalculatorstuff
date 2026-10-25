@@ -25,6 +25,13 @@ complex roots and display them in the appropriate format of square roots instead
 When non symbolic calculators run quadratics with complex roots, they do at some point have the complex imaginary form, they just keep simplifying until it becomes decimal, which means you can take the output and 
 just undo the last couple of steps to make it complex again, then format it so it comes out comprehensible. 
 
+AC Method Program: This program lets you factor any quadratic using the AC method, and just because it was convenient, also includes the automatic factoring of quadratics using GCF method when C=0. This ones pretty
+intuitive to use, just enter the coefficient value of A,B,C so long as A isn't 0 and it can be factored, it will automatically try the AC method. If that fails due to C=0, it switches to factoring a GCF.
+For AC method results, it will tell you what two numbers B was split into, the factored form, and the GCF. For scenarios where the GCF = 1, it says no GCF, but if you prefer, imagine the imaginary 1, who cares.
+For GCF method results, it gives you the factored form and the GCF it used, just in case you're curious. This is a useful tool if you need to whittle down a massive multi degree polynomial, after you've split
+off smaller quadratics, you can quickly use this to factor the smaller parts piecemeal. It also just outright does your quadratic factoring homework if you're in high school, since it gives you the number split and
+or GCF, so long as you vaguely know how to make it look like you did it yourself, you can show your work.
+
 All Integer Factors of N: This program lets you enter any whole number N (N>0) and will find all possible integer factors. Due to how Ti Basic displays, they will be represented as a
 solution set of positive values with a message reminding you that all integer values are +/-, in case you need the reminder. This seems to work for any whole number integer, a separate one would be needed for
 non whole N>0 values, since the list function it uses cannot handle these without shitting the bed. Instead of jamming more stuff into this program, I might just make a separate program if it becomes an actual
